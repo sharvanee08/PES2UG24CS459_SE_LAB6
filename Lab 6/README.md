@@ -1,16 +1,26 @@
-# L6_L7_22_hotel_booking — Hotel Booking
+## Lab 6: Code and Branch Coverage Analysis
 
-Lab 6: Code and Branch Coverage
+### Objective
+To measure code coverage and branch coverage using pytest and coverage.py, and test different execution paths in the hotel booking application.
 
-## About
+### 1. Code Coverage Analysis
+- Test file: `CodeCoverageTest_PES2UG24CS459_application.py`
+- Test cases passed: 20
+- Statement coverage: 100%
+- Screenshot: `code_coverage.png`
 
-A small Python module that works out hotel booking costs by room, season and guests, calculates cancellation refunds and handles room upgrades.
+The tests cover room pricing, peak-season charges, additional guests, weekly discounts, cancellation refunds, room upgrades, and invalid inputs.
 
-## Files
+### 2. Branch Coverage Analysis
+- Test file: `BranchCoverageTest_PES2UG24CS459_application.py`
+- Test cases passed: 23
+- Statement coverage: 100%
+- Branch coverage: 100%
+- Branches: 22
+- Partial branches: 0
+- Screenshot: `branch_coverage.png`
 
-| File | Description |
-|------|-------------|
-| `hotel_booking.py` | The module under test |
-| `test_hotel_booking.py` | Starter test file |
+The tests exercise the true and false outcomes of the decision branches in the hotel booking application.
 
-Refer to the lab handout for instructions.
+### Conclusion
+Both test suites passed successfully. The coverage reports show 100% statement coverage, and the branch coverage run achieved 100% branch coverage for the measured application code.
